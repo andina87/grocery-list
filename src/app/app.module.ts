@@ -9,6 +9,7 @@ import { AppComponent } from './app.component';
 
 @NgModule({
   declarations: [
+    AppComponent,
     GroceryComponent
   ],
   imports: [
@@ -19,3 +20,4 @@ import { AppComponent } from './app.component';
   providers: [],
   bootstrap: [GroceryComponent]
 })
+export class AppModule { }
